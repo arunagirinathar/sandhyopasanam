@@ -1,0 +1,72 @@
+@import url('pico.min.css');
+@import url('language.css');
+
+
+header
+{
+  background-color: #EFEFEF;
+  box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.52);
+-webkit-box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.52);
+-moz-box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.52);
+  
+}
+
+h1 [lang="sa"],
+h2 [lang="sa"],
+h3 [lang="sa"],
+h4 [lang="sa"],
+h5 [lang="sa"],
+h6 [lang="sa"],
+
+h1 [lang="en"],
+h2 [lang="en"],
+h3 [lang="en"],
+h4 [lang="en"],
+h5 [lang="en"],
+h6 [lang="en"]
+{
+  font-weight: normal;
+}
+
+header a
+{
+  text-decoration: none;
+  color: black;
+}
+
+header h1 span
+{
+  display: block;
+  text-align: center;
+  margin: 1rem;  
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+
+
+header h1 span[lang="sa"]
+{
+  font-size: 2.5rem;
+}
+
+.text-center
+{
+  text-align: center;
+}
+
+ol.index li
+{
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  line-height: 150%;
+}
+
+ol.index li a 
+{
+  text-decoration: none;
+}
+ol.index li a span
+{
+  display: block;
+}

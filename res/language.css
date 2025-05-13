@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Jaldi";
+  src: url("./fonts/Jaldi-Regular.woff2") format("woff2"),
+    url("./fonts/Jaldi-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jaldi";
+  src: url("./fonts/Jaldi-Bold.woff2") format("woff2"),
+    url("./fonts/Jaldi-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap";
+  src: url("./fonts/Asap-Regular.woff2") format("woff2");
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap";
+  src: url("./fonts/Asap-Bold.woff2") format("woff2");
+      font-weight: bold;
+      font-style: normal;
+      font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap";
+  src: url("./fonts/Asap-Italic.woff2") format("woff2");
+      font-weight: normal;
+      font-style: italic;
+      font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap";
+  src: url("./fonts/Asap-BoldItalic.woff2") format("woff2");
+      font-weight: bold;
+      font-style: italic;
+      font-display: swap;
+}
+
+
+
+[lang="sa"] {
+  font-family: "Jaldi", "Noto Serif Devanagari", "Devanagari MT", serif;
+  /* font-size: 1.25rem;
+  line-height: 1.6; */
+}
+
+[lang="sa-la"] {
+  font-family: "Asap", "Noto Serif", "Gentium Plus", serif;
+  font-style: italic;
+}
+
+[lang="en"] {
+  font-family: "Asap", "Noto Serif", "Gentium Plus", serif;
+}
